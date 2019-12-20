@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <base target="_blank" href="http://www.example.com/page.html"> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+</head>
+<body>
+
+
+    <div class="row">
+        <div class="col-12 bloqueTabla">
+            <label for="exampleInputEmail1"><h2>Alumno: Jhonny Michael Morocho </h2></label><br>
+            <label for="exampleInputEmail1"><h2>Curso : 8 vo A </h2></label><br>
+            <label for="exampleInputEmail1"><h2>Materia : Investigacion de Operaciones </h2></label><br>
+            <label for="exampleInputEmail1"><h1>METODO SIMPLES </h1></label><br>
+            <form class="formulario" id="idFormulario" method="post" action="#">
+                <div class="form-group">
+                    <label for="exampleInputEmail1"><h2>1. Definir tamaño de la matriz</h2></label><br>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="exampleInputEmail1">1.1  Definir tamaño Filas</label>
+                            <input type="number" class="form-control" id="inputFilas" min="3"  name="filas" placeholder="Numero de Filas" required value="4">
+                        </div>
+                        <div class="col-6">
+                                <label for="exampleInputEmail1">1.1  Definir tamaño Columnas</label>
+                            <input type="number" class="form-control" id="inputColumnas"  min="2"  name="columnas" placeholder="Numero de Columnas" required value="7">
+                        </div>
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <!-- <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" name="dd" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div> -->
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-12 bloqueTabla"><!--bloque tabla  -->
+            <form class="formulario" id="idFormularioF_C" method="post" action="#">
+                <table class="table table-dark">
+                    <thead class="filas">
+                         <tr>
+                            <th scope="col">#</th>
+                            <!-- <th scope="col">First</th> -->
+                        </tr> 
+                        </thead>
+                        <tbody>
+                          
+                        </tbody>
+                </table>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>    
+        </div> <!--end bloque tabla -->
+    </div>
+
+</body>
+
+<script src="js/jquery/jquery.js"></script> 
+<script src="js/bootstrap.js"></script>
+<script src="js/math.js"></script>
+<script src="js/jsMain.js"></script>
+</html>
+
+<!-- <table class="table table-dark">
+    <thead class="filas">
+         <tr>
+            <th scope="col">#</th>
+             <th scope="col">First</th> 
+        </tr> 
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">olgura</th>
+            <td>Mark</td>
+             <td>Otto</td>
+            <td>@mdo</td> 
+        </tr>
+        </tbody>
+</table> -->
